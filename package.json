@@ -45,6 +45,10 @@
       "reactify"
     ]
   },
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://git.heroku.com/searchableapp.git"
+  },
   "author": "Katiana Stephens",
   "license": "MIT"
 }
