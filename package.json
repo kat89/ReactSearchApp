@@ -37,7 +37,6 @@
     "watchify": "^3.7.0"
   },
   "scripts": {
-    "start": "node start",
     "dev": "node server.js"
   },
   "browserify": {
