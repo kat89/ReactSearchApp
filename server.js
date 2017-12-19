@@ -6,7 +6,7 @@ var  app = express();
 var bodyparser = require('body-parser');
 var  port = process.env.PORT || 8080;
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/websearchapi/sites');
+mongoose.connect('mongodb://reactor:mongo5263@ds161026.mlab.com:61026/reactsearchapp/sites');
 
 var siteSchema = new mongoose.Schema({
   title: String,
